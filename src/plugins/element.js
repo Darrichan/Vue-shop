@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import { Button } from 'element-ui'
-import { Form, formItem, Input, Message, Container, Main, Aside, Footer, Header, Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem, Card, Row, Col, Table, TableColumn, Switch, Tooltip, Pagination, Dialog, MessageBox, Tag, Tree, Select, Option, Cascader } from 'element-ui'
+import { Form, formItem, Input, Message, Container, Main, Aside, Footer, Header, Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem, Card, Row, Col, Table, TableColumn, Switch, Tooltip, Pagination, Dialog, MessageBox, Tag, Tree, Select, Option, Cascader, Alert, Tabs, TabPane } from 'element-ui'
 import treeTable from 'vue-table-with-tree-grid'
 Vue.use(formItem)
 Vue.use(Switch)
@@ -10,9 +10,12 @@ Vue.use(Option)
 Vue.use(Dialog)
 Vue.use(Tooltip)
 Vue.use(Tag)
+Vue.use(Tabs)
 Vue.use(Form)
 Vue.use(Pagination)
+Vue.use(Alert)
 Vue.use(Cascader)
+Vue.use(TabPane)
 Vue.use(Table)
 Vue.use(TableColumn)
 Vue.use(Input)
