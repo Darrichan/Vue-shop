@@ -1,11 +1,13 @@
 import Vue from 'vue'
 import { Button, Step } from 'element-ui'
-import { Form, formItem, Input, Message, Container, Main, Aside, Footer, Header, Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem, Card, Row, Col, Table, TableColumn, Switch, Tooltip, Pagination, Dialog, MessageBox, Tag, Tree, Select, Option, Cascader, Alert, Tabs, TabPane, Steps, Checkbox, CheckboxGroup, Upload } from 'element-ui'
+import { Form, formItem, Input, Message, Container, Main, Aside, Footer, Header, Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem, Card, Row, Col, Table, TableColumn, Switch, Tooltip, Pagination, Dialog, MessageBox, Tag, Tree, Select, Option, Cascader, Alert, Tabs, TabPane, Steps, Checkbox, CheckboxGroup, Upload, Timeline, TimelineItem } from 'element-ui'
 import treeTable from 'vue-table-with-tree-grid'
 Vue.use(formItem)
 Vue.use(Switch)
 Vue.use(Tree)
 Vue.use(Checkbox)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
 Vue.use(Upload)
 Vue.use(CheckboxGroup)
 Vue.use(Select)
