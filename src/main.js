@@ -12,7 +12,7 @@ import 'quill/dist/quill.bubble.css' // for bubble theme
 
 Vue.use(VueQuillEditor, /* { default global options } */ )
     // 配置请求的根路径
-axios.defaults.baseURL = "http://101.133.165.226:8888/api/private/v1/";
+axios.defaults.baseURL = "请输入你的api";
 // axios.defaults.baseURL = "http://1"
 axios.interceptors.request.use((config) => {
     config.headers.Authorization = window.sessionStorage.getItem('token')
